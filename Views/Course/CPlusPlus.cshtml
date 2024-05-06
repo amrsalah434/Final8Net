@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "C++";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/full.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <div style=" margin-left: -26px;
+            margin-bottom: -79px;
+            margin-top: -49px;">
+                <a href="~/Home/Index" class="navbar-brand ml-lg-3">
+                    <img src="img/Untitled-16.png" style="width: 20%; height: 20%;">
+                </a>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px; padding-bottom: 20px; padding-top: 30px; background-image: url(img/C++.png);">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-1">C++</h1>
+            <div class="d-inline-flex text-white mb-5">
+                <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">C++</p>
+            </div>
+            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+                    <input type="text" class="form-control border-light" id="searchIndex" style="padding: 30px 25px;" placeholder="Search Courses">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary px-4 px-lg-5" onclick="searchInIndex()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <!-- Detail Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mb-5">
+                        <div class="section-title position-relative mb-5">
+                            <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Course Detail</h6>
+                            <h1 class="display-4">c++ full course</h1>
+                        </div>
+                        <img class="img-fluid rounded w-100 mb-4" src="~/img/Picture2.png" alt="Image">
+
+                        <p>
+                            Welcome to C and C++! C is a concise yet powerful computer programming language
+                            thats appropriate for technically oriented people with little or no programming experience
+                            and for experienced programmers to use in building substantial software systems. C How
+                            to Program, Eighth Edition, is an effective learning tool for each of these audiences.
+                            The core of the book emphasizes software engineering through the proven methodologies of
+                            structured programming in C and object-oriented programming in C++. The book
+                            presents hundreds of complete working programs and shows the outputs produced when
+                            those programs are run on a computer
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <img class="img-fluid rounded" src="img/images.jfif" alt="">
+
+
+            <img class="img-fluid rounded" src="img/0_7zMicw-FfThCbN35.png" alt="">
+        </div>
+
+        <div class="related_video" style="margin-left: 3%; font-size: 20px;">
+            <h2 class="mb-10">related video</h2>
+            <br>
+            <h3>
+                <a href="https://www.youtube.com/watch?v=z1FdInL8sjg&list=PLCInYL3l2AajFAiw4s1U4QbGszcQ-rAb3">
+                    video 1
+                </a>
+            </h3>
+            <br>
+            <h3><a href="https://youtu.be/xo1R1nYM4aw"> video 2</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/pw7rTydaSYs"> video 3</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/FBjOHTuOIqo"> video 4</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/Pkl5iFCNNs4"> video 5</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/F56Bo4I0GhA"> video 6</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/taov2H_-nlU"> video 7</a></h3>
+            <br>
+            <h3><a href="https://youtu.be/-MTeqw7gZf0"> video 8</a></h3><br>
+        </div>
+    </div>
+
+    <div class="RELATED" style="margin-left: 3%; font-size: 20px;">
+        <h2 class="mb-10">related pdf</h2>
+        <p>
+            open a pdf file <a href="pdf/cpp_tutorial.pdf">
+                <h3>pdf 1</h3>
+            </a>
+        </p><br>
+        <p>
+            open a pdf file <a href="pdf/C++.pdf">
+                <h3>pdf 2</h3>
+            </a>
+        </p><br>
+    </div>
+
+
+    <section style="margin-left: 3%;">
+        <h2>Assignments</h2>
+        <!-- <form> -->
+        <label for="assignment">Upload Assignment:</label>
+        <input type="file" id="submitAssignment" name="assignment" />
+        <br /><br />
+        <button type="submit" onclick="submit()" style="background-color: black; color: white; width: 10%;
+              height: 5%;">
+            Submit
+        </button>
+        <!-- </form> -->
+        <h2 style="margin-top: 4%;">Quiz</h2>
+        <form action="~/Quiz/CPlusPlusQ">
+            <button type="submit" style="background-color: black; color: white; width: 10%;
+                height: 5%;">
+                Take Quiz
+            </button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+    <!-- Footer Start -->
+    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <a href="~/Home/Index" class="navbar-brand">
+                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Fahemny</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4" id="Contact">Contact us</h3>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>End of 90th St., Fifth Settlement, New Cairo</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>16383</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4">Our Courses</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="WebDesign.html">
+                            <i class="fa fa-angle-right mr-2"></i>Web
+                            Design
+                        </a>
+                        <a class="text-white-50 mb-2" href="dataStructure.html">
+                            <i class="fa fa-angle-right mr-2"></i>Data Structure
+                        </a>
+                        <a class="text-white-50 mb-2" href="java.html">
+                            <i class="fa fa-angle-right mr-2"></i>Java
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

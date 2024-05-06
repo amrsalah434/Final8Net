@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Data Structures";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/full.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-book-reader mr-3"></i>Fahmny</h1>
+            </a>
+
+        </nav>
+    </div> -->
+    <div style="    margin-left: -26px;
+        margin-bottom: -74px;
+        margin-top: -40px;">
+        <a href="~/Home/Index" class="navbar-brand ml-lg-3">
+            <img src="C:\Users\Dell\Downloads\Final8Net (3)\Final8Net\wwwroot\img\Picture1.png" style="width: 20%; height: 20%;">
+        </a>
+
+    </div>
+    <div class="" style="margin-bottom: 90px; background-image: url(img/dataStructure.jpeg); padding-top: 40px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-1">Data Structures</h1>
+            <div class="d-inline-flex text-white mb-5">
+                <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">Data Structures</p>
+            </div>
+            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+
+                    <input type="text" class="form-control border-light" id="searchIndex" style="padding: 30px 25px;"
+                           placeholder="Search Courses">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary px-4 px-lg-5" onclick="searchInIndex()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mb-5">
+                        <div class="section-title position-relative mb-5">
+                            <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">
+                                Course
+                                Detail
+                            </h6>
+                            <h1 class="display-4">Data Structures course</h1>
+                        </div>
+                        <img class="img-fluid rounded w-100 mb-4" src="img/data.png" alt="Image">
+                        <p>About this course</p>
+
+                        <p>
+                            A data structure is a storage that is used to store and organize data. It is a way of
+                            arranging data on a computer so that it can be accessed and updated efficiently.
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-left: 2%;">
+        <!-- Videos used -->
+
+        <h2 class="mb-3">Related Videos</h2>
+
+        <ul class="list-group list-group-flush" style="font-size: 20px;">
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=1" class="text-decoration-none h6 m-0">Introduction</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.youtube.com/watch?v=sHhVsGQz9MI&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=2" class="text-decoration-none h6 m-0">Video 1</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.youtube.com/watch?v=vdPNQzgBu_I&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=3" class="text-decoration-none h6 m-0">Video 2</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.youtube.com/watch?v=N4o69Gqarhc&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=4" class="text-decoration-none h6 m-0">Video 3</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.youtube.com/watch?v=9BZlgbZFR_c&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=5" class="text-decoration-none h6 m-0">Video 4</a>
+            </li>
+        </ul>
+        <h3 class="mb-3">Source</h3>
+        <a href="https://www.youtube.com/AdelNasim" class="text-decoration-none h6 m-0">Eng Adel Nassim</a>
+
+        <!-- PDFs used -->
+        <h2 class="mb-3">Related Documents</h2>
+        <ul class="list-group list-group-flush" style="font-size: 20px;">
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://bu.edu.eg/portal/uploads/Computers%20and%20Informatics/Computer%20Science/1266/crs-10600/Files/Esam%20Halim%20Houssein%20Abd%20El-Halim_4-%20Data-Structure%20Using%20C++%20Malik.pdf" class="text-decoration-none h6 m-0">Book 1</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.cs.bham.ac.uk/~jxb/DSA/dsa.pdf" class="text-decoration-none h6 m-0">Book 2</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.audisankara.ac.in/has/pdf/DATA%20STRUCTURE.pdf" class="text-decoration-none h6 m-0">PDF 1</a>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a href="https://www.iare.ac.in/sites/default/files/lecture_notes/IARE_DS_LECTURE_NOTES_2.pdf" class="text-decoration-none h6 m-0">PDF 2</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <section style="margin-left: 3%;">
+        <h2>Assignments</h2>
+        <form>
+            <label for="assignment">Upload Assignment:</label>
+            <input type="file" id="submitAssignment" name="assignment" />
+            <br /><br />
+            <button type="submit" onclick="submit()" style="background-color: black; color: white; width: 10%;
+          height: 5%;">
+                Submit
+            </button>
+        </form>
+        <h2 style="margin-top: 4%;">Quiz</h2>
+        <form action="WebQuiz.html">
+            <button type="submit" style="background-color: black; color: white; width: 10%;
+            height: 5%;">
+                Take Quiz
+            </button>
+        </form>
+        <p id="response"></p>
+    </section>
+
+
+    <!-- footer -->
+    <div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;">
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mt-n2 text-uppercase text-white"><i class="fa fa-book-reader mr-3"></i>Fahemny</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4" id="Contact">Contact us</h3>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>End of 90th St., Fifth Settlement, New Cairo</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>16383</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
+                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h3 class="text-white mb-4">Our Courses</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="WebDesign.html"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
+                        <a class="text-white-50 mb-2" href="java.html"><i class="fa fa-angle-right mr-2"></i>Java</a>
+                        <a class="text-white-50 mb-2" href="C++.html"><i class="fa fa-angle-right mr-2"></i>C++</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+﻿img {
+    width: 460px;
+    height: 550px;
+    position: absolute;
+    right: -500px;
+}
+
+.text {
+    height: 60px;
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-top: -10px;
+}
+
+label {
+    color: black;
+}
+
+.c1 {
+    position: fixed !important;
+    top: 55%;
+    right: 55%;
+    margin-top: -341px;
+    margin-right: -228px;
+    width: 285px;
+    margin-bottom: 30px;
+    justify-content: center;
+    line-height: 2;
+    background-size: 1100px 100px;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 52px;
+    display: inline-table;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px darkgray;
+}
+
+input:focus {
+    outline: none;
+}
+
+#myuser {
+    background-color: #eee;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 10px 1px 10px 10px;
+    margin-bottom: 13px;
+}
+
+    #myuser:hover {
+        box-shadow: 1px 1px 6px 3px black;
+        border-radius: 8px;
+    }
+
+#mypass {
+    background-color: #eee;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 10px 1px 10px 10px;
+    margin-bottom: 13px;
+}
+
+    #mypass:hover {
+        box-shadow: 1px 1px 6px 3px black;
+        border-radius: 8px;
+    }
+/*.logo {
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -90px;
+    margin-bottom: -50px;
+    padding: 14px 0px 14px 0px;
+    font-size: 10px;
+}*/
+
+.submit {
+    color: #f2f2f2;
+    font-size: 16.8px;
+    padding: 10px 135px 15px 129px;
+    border-radius: 8px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #8f7efe;
+    box-shadow: 0px 2px 10px 2px #8f7eff;
+}
+
+.cont {
+    color: #b1bca9;
+}
+
+.sign {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #bebdbd;
+    margin: -72px;
+    margin-bottom: -72px;
+    text-align: center;
+    padding: 44px;
+    margin-bottom: -35px;
+}
+
+.frt {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #bebdbd;
+    margin: -3px;
+    padding: 4px 2px 31px 143px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8f7eff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #8f7eff;
+    background-color: transparent;
+    text-decoration: underline;
+}
